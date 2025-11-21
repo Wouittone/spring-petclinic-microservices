@@ -8,8 +8,8 @@
       "installMaven": "true",
       "installGradle": "false"
     },
-    "ghcr.io/devcontainers/features/azure-cli:1":{}, // Install Azure CLI
-    "ghcr.io/devcontainers/features/docker-in-docker:2":{}, // install docker
+    "ghcr.io/devcontainers/features/azure-cli:1": {}, // Install Azure CLI
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {} // install docker
   },
   "customizations": {
     // Configure properties specific to VScode
@@ -18,7 +18,7 @@
         // VSCode settings https://github.com/redhat-developer/vscode-java/blob/master/README.md
         "java.server.launchMode": "Standard"
       },
-      "extensions":[
+      "extensions": [
         "vscjava.vscode-java-pack",
         "vscjava.vscode-maven",
         "github.vscode-github-actions",
